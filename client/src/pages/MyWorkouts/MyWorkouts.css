@@ -1,0 +1,17 @@
+.table-container {
+  min-width: 350px;
+  max-width: 800px;
+  margin-bottom: -50px;
+  width: 100vw;
+  max-height: 55vh;
+  padding: 1rem;
+  box-sizing: content-box;
+}
+
+td > a {
+  color: teal;
+}
+
+td > a:hover {
+  color: rgb(0, 85, 85);
+}

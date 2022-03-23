@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center !important;
+  align-items: center !important;
+  background: linear-gradient(
+    190deg,
+    var(--color-light--2),
+    var(--color-light--3)
+  );
+}

@@ -1,0 +1,78 @@
+.landing-page {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.landing-page h2 span {
+  font-size: 3rem;
+  color: var(--color-brand--2);
+}
+
+.box {
+  /* background: linear-gradient(
+    190deg,
+    var(--color-light--2),
+    var(--color-light--3)
+  ); */
+  background-color: var(--color-light--2);
+}
+
+.landing-page button {
+  color: var(--color-dark--1);
+  background-color: var(--color-light--2);
+}
+
+.landing-page button:hover {
+  background-color: var(--color-brand--1);
+  color: var(--color-dark--1);
+}
+
+.landing-page a:hover {
+  text-decoration: none;
+}
+
+.bg {
+  position: absolute;
+  background: linear-gradient(
+    190deg,
+    var(--color-light--2),
+    var(--color-light--3)
+  );
+  height: 120vh;
+  width: 100vw;
+  z-index: -2;
+  transform: translateY(-40vh);
+}
+
+.skew {
+  position: fixed;
+  background-color: var(--color-dark--2);
+  height: 80vh;
+  width: 100vw;
+  z-index: -2;
+  transform: skewY(-5deg) translateY(45vh);
+}
+
+.skew2 {
+  position: fixed;
+  background-color: var(--color-brand--1);
+  height: 10vh;
+  width: 100vw;
+  z-index: -2;
+  transform: skewY(-5deg) translateY(40vh);
+}
+
+.heading {
+  /* color: var(--color-brand--2); */
+}

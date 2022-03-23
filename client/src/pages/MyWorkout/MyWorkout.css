@@ -1,0 +1,41 @@
+.table-container {
+  min-width: 350px;
+  width: 100vw;
+  max-width: 600px;
+  margin-bottom: -50px;
+  max-height: 55vh;
+  padding: 1rem;
+  margin-top: 0.5rem;
+
+  box-sizing: content-box;
+  overflow: scroll;
+}
+
+td > a {
+  color: teal;
+}
+
+td > a:hover {
+  color: rgb(0, 85, 85);
+}
+
+.even-rows {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-btn {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  color: var(--color-dark--2);
+}
+
+.back-btn:hover {
+  background-color: var(--color-dark--1) !important;
+  color: var(--color-light--2);
+}
+
+td > button > svg {
+  pointer-events: none;
+}

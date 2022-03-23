@@ -1,0 +1,7 @@
+div > a {
+  color: teal;
+}
+
+div > a:hover {
+  color: rgb(0, 99, 99);
+}

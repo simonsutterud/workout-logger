@@ -1,0 +1,110 @@
+.navbar {
+  position: absolute;
+  width: 100vw;
+  height: 80px;
+  background-color: var(--color-dark--1);
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  z-index: 99;
+}
+
+.even-spacing {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar h2 {
+  color: var(--color-brand--2);
+}
+
+.navbar button {
+  color: var(--color-brand--1);
+}
+
+.sign-up {
+  background-color: var(--color-brand--1) !important;
+  color: var(--color-dark--1) !important;
+}
+
+.navbar button:hover {
+  background-color: var(--color-brand--1);
+  color: var(--color-dark--1);
+}
+
+.logout {
+  border: 1px solid var(--color-brand--1) !important;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.new-workout,
+.my-stats,
+.my-workouts {
+  background-color: var(--color-dark--1) !important;
+  color: var(--color-brand--1) !important;
+}
+
+/* .new-workout {
+  border: 1px solid var(--color-brand--1);
+} */
+
+.new-workout:hover,
+.my-stats:hover,
+.my-workouts:hover {
+  background-color: var(--color-brand--1) !important;
+  color: var(--color-dark--1) !important;
+  opacity: 1;
+}
+
+.accordion:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.accordion-container {
+  position: absolute;
+  top: 8px;
+  right: 150px;
+  /*   background-color: rosybrown;
+ */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.accordion-mobile-container {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 50%;
+  /*   background-color: rosybrown;
+ */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.grey-brand {
+  background-color: var(--color-dark--1);
+}
+
+.active-nav > button {
+  /*   box-shadow: inset 0px 1px 4px 1px rgba(0, 0, 0, 0.514);
+ */
+  color: var(--color-light--3) !important;
+}
+
+.active-nav > button:hover {
+  background-color: transparent !important;
+  color: var(--color-light--3) !important;
+  opacity: 0.9;
+}
